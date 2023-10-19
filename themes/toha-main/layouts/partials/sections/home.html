@@ -1,0 +1,269 @@
+{{ $author:= site.Data.author }}
+{{ if (index site.Data site.Language.Lang).author }}
+{{ $author = (index site.Data site.Language.Lang).author }}
+{{ end }}
+
+{{ $name:="Jane Doe" }}
+{{ if $author.nickname }}
+{{ $name = $author.nickname }}
+{{ else if $author.name }}
+{{ $name = $author.name }}
+{{ end }}
+
+{{ $sections:= site.Data.sections }}
+{{ if (index site.Data site.Language.Lang).sections }}
+{{ $sections = (index site.Data site.Language.Lang).sections }}
+{{ end }}
+
+{{ $backgroundImage:= "/images/default-background.jpg" }}
+{{ if site.Params.background }}
+{{ $backgroundImage = site.Params.background }}
+{{ end }}
+
+
+{{ $authorImage:= "/images/default-avatar.png" }}
+{{ if $author.image }}
+{{ $authorImage = $author.image }}
+{{ end }}
+{{ $authorImage := resources.Get $authorImage }}
+
+{{/* apply image processing. don't use "Fit" in svg or gif because its not supported */}}
+{{ if and $authorImage (and (ne $authorImage.MediaType.SubType "svg") ( ne $authorImage.MediaType.SubType "gif")) }}
+{{ $authorImage = $authorImage.Fit "148x148" }}
+{{ end }}
+{{/* get file that matches the filename as specified as src="" in shortcode */}}
+{{ $src := resources.Get $backgroundImage }}
+
+{{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
+
+{{ $tinyw := default "500x" }}
+{{ $smallw := default "800x" }}
+{{ $mediumw := default "1200x" }}
+{{ $largew := default "1500x" }}
+
+{{/* resize the src image to the given sizes */}}
+
+{{ $tiny := $src.Resize $tinyw }}
+{{ $small := $src.Resize $smallw }}
+{{ $medium := $src.Resize $mediumw }}
+{{ $large := $src.Resize $largew }}
+
+{{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
+{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
+
+{{ if lt $src.Width "500" }}
+{{ $tiny := $src}}
+{{ $small := $src}}
+{{ $medium := $src}}
+{{ $large := $src}}
+{{ end }}
+
+{{ if lt $src.Width "800" }}
+{{ $small := $src}}
+{{ $medium := $src}}
+{{ $large := $src}}
+{{ end }}
+
+{{ if lt $src.Width "1200" }}
+{{ $medium := $src}}
+{{ $large := $src}}
+{{ end }}
+
+{{ if lt $src.Width "1500" }}
+{{ $large := $src}}
+{{ end }}
+<head>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css"> -->
+    <!-- remember, jQuery is completely optional -->
+    <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script>
+    <script type="text/javascript" src="js/jquery.particleground.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.31.1/tsparticles.min.js"></script>
+</head>
+
+</head>
+
+<div class="container-fluid home" id="home">
+    <style>
+        /* 0 to 299 */
+        #homePageBackgroundImageDivStyled {
+            background-image: url('{{ $tiny.RelPermalink }}');
+        }
+
+        /* 300 to X */
+        @media (min-width: 500px) and (max-width: 800px) {
+
+            /* or 301 if you want really the same as previously.  */
+            #homePageBackgroundImageDivStyled {
+                background-image: url('{{ $small.RelPermalink }}');
+            }
+        }
+
+        @media (min-width: 801px) and (max-width: 1200px) {
+
+            /* or 301 if you want really the same as previously.  */
+            #homePageBackgroundImageDivStyled {
+                background-image: url('{{ $medium.RelPermalink }}');
+            }
+        }
+
+        @media (min-width: 1201px) and (max-width: 1500px) {
+
+            /* or 301 if you want really the same as previously.  */
+            #homePageBackgroundImageDivStyled {
+                background-image: url('{{ $large.RelPermalink }}');
+            }
+        }
+
+        @media (min-width: 1501px) {
+
+            /* or 301 if you want really the same as previously.  */
+            #homePageBackgroundImageDivStyled {
+                background-image: url('{{ $src.RelPermalink }}');
+            }
+        }
+
+    </style>
+    <!-- <span class="on-the-fly-behavior"></span> -->
+    <!-- <div id="particles" class="background container-fluid"></div> -->
+
+    <div id="tsparticles" class="background container-fluid"></div>
+    
+    
+    <script>
+        tsParticles.load("tsparticles", {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#5cbdaa"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#5cbdaa"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    }
+                },
+                "opacity": {
+                    // "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        // "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 4,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#5cbdaa",
+                    // "opacity": 0.4,
+                    "width": 2
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2.7,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            // "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        // "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+    <div class="container content text-center">
+        <img src="{{ $authorImage.RelPermalink }}" class="rounded-circle mx-auto d-block img-fluid" alt="Author Image" />
+        <h1 class="greeting"> {{ $author.greeting }} {{ $name }}</h1>
+        {{ if $author.subtitle }}
+        <h2 class="greeting-subtitle">{{ $author.subtitle }}</h2>
+        {{ end }}
+        <div class="typing-carousel">
+            <span id="ityped" class="ityped"></span>
+            <span class="ityped-cursor"></span>
+        </div>
+        <ul id="typing-carousel-data">
+            {{ if $author.summary }}
+            {{ range $author.summary }}
+            <li>{{ . }}</li>
+            {{ end}}
+            {{ end }}
+        </ul>
+        {{ if $sections }}
+        {{ range first 1 (where (sort $sections "section.weight") ".section.enable" true) }}
+        {{ $sectionID := replace (lower .section.name) " " "-" }}
+        {{ if .section.id }}
+        {{ $sectionID = .section.id }}
+        {{ end }}
+        <a href="#{{ $sectionID }}" class="arrow-center" aria-label="{{ i18n " read" }} {{ i18n "more" }} - {{ $name }}"><i class="arrow bounce fa fa-chevron-down"></i></a>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
