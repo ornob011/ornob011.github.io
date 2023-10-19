@@ -1,0 +1,98 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Machine Learning
+  filter: "Machine Learning"
+- name: Java
+  filter: "Java"
+- name: Database
+  filter: "Database"
+- name: Web Development
+  filter: "Web Development"
+
+# your projects
+projects:
+- name: AbdomenExpert
+  logo: /images/sections/projects/AbdomenExpert.png
+  role: Lead Developer
+  timeline: "September 2022 - December 2022"
+  repo: https://github.com/ornob011/Abdomen_Expert # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: A few-shot learning model combined with an Ensemble Learning technique to detect 9 types of abnormalities and normal cases from the abdomen CT scans. The model uses a training dataset of only 800 images.
+  tags: ["Machine Learning", "PyTorch", "Torchvision", "Scikit-learn"]
+
+- name: CovidExpert
+  logo: /images/sections/projects/CovidExpert_1.png
+  role: Lead Researcher
+  timeline: "July 2022 - December 2022"
+  repo: https://github.com/ornob011/CovidExpert-Interface
+  #url: ""
+  summary: Proposed a Triplet Siamese Neural Network for COVID-19 detection from chest CT scans, outperforming all published models with 600 training CT scans. Successfully tested against the largest test dataset of 10152 CT scans.
+  tags: ["Machine Learning", "PyTorch", "Torchvision", "Scikit-learn", "Tkinter"]
+
+- name: Image Caption Generator
+  logo: /images/sections/projects/Image_Caption.png
+  role: Lead Developer
+  timeline: "December 2022 - January 2022"
+  repo: "https://github.com/ornob011/Image-Caption-Generator"
+  summary: A framework that generates human-readable sentences from images using an encoder-decoder model. The input image is encoded into an intermediate representation and then decoded into a descriptive text sequence.
+  tags: ["Machine Learning", "Tensorflow", "Scikit-learn", "Flask"]
+
+- name: E-learning Platform
+  logo: /images/sections/projects/E-learning.png
+  role: Developer
+  timeline: "April 2022 - June 2022"
+  repo: https://github.com/ornob011/E-Learning-Platform
+  summary: An E-Learning Platform that allows college employees to manage courses online, including assessments and content creation, using OOP principles and GUI components for easy navigation.
+  tags: ["Java", "JavaFX", "SQL", "Heroku"]
+
+- name: Pharmacy Management System
+  logo: /images/sections/projects/Pharmacy-Management-System.png
+  role: Developer
+  timeline: "August 2022 - September 2022"
+  repo: https://github.com/ornob011/Pharmacy-Management-System
+  summary: A pharmacy management system that handles all necessary data for sustainable business operations. Enables efficient management of medicines, prescription distribution, and registration of new items.
+  tags: ["Java", "JavaFX", "SQL", "Heroku"]
+
+- name: Hostel Management System
+  logo: /images/sections/projects/Hostel-Management-System_2.png
+  role: Lead Developer
+  timeline: "December 2020 - March 2021"
+  repo: https://github.com/ornob011/Hostel-Management-System
+  summary: Cross-platform Hostel Management System for easy management of activities including user profiles, payment, and details of hostel students and employees. User-friendly and eliminates problems of manual management.
+  tags: ["Java", "JavaFX", "SQL", "Heroku"]
+
+- name: Online Shopping System
+  logo: /images/sections/projects/Online-Shopping-System.png
+  role: Lead Developer
+  timeline: "April 2021 - May 2021"
+  repo: "https://github.com/ornob011/Online-Shopping-System"
+  summary: A website with admin and user modes that allows users to search and buy products, and the admin to add products and users. Includes a user login feature and ability to view available products.
+  tags: ["Database", "PHP", "SQL"]
+
+- name: Doctor’s Portal
+  logo: /images/sections/projects/doctors-portal.png
+  role: Developer
+  timeline: "May 2020 - April 2020"
+  repo: https://github.com/ornob011/doctors-portal
+  summary: A platform connecting patients with healthcare providers, empowering them to schedule appointments and receive prescriptions, while enabling doctors to manage appointments and deliver services.
+  tags: ["Web Development", "React", "Node.js"]
+
+- name: Onion Restaurant
+  logo: /images/sections/projects/red-onion-client.png
+  role: Developer
+  timeline: "March 2020 - April 2020"
+  repo: https://github.com/ornob011/red-onion-client
+  summary: An online food ordering platform that allows customers to choose their desired dishes from an extensive menu and receive prompt delivery to their location after completing the payment process.
+  tags: ["Web Development", "React", "Node.js"]
