@@ -1,0 +1,127 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+# - name: Ph.D in Quantum Cryptography
+#   icon: fa-microscope
+#   timeframe: 2016-2020
+#   institution:
+#     name: ABC University of Technology
+#     url: "#"
+#   grade: #(optional)
+#     scale: CGPA
+#     achieved: 3.6
+#     outOf: 4
+#   publications: #(optional)
+#   - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     url: "#"
+#   - title: Fusce eu augue ut odio porttitor pulvinar.
+#     url: "#"
+#   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+#     url: "#"
+- name: B.Sc.(Engg.) in Computer Science & Engineering
+  icon: fa-graduation-cap
+  timeframe: 2018-2022
+  institution:
+    name: Shahjalal University of Science and Technology
+    url: "https://www.sust.edu"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.58
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    courses:
+    - name: Machine Learning
+      achieved: 4.00/4.00
+      outOf: 4.5
+    - name: Artificial Intelligence
+      achieved: 3.67/4.00
+      outOf: 4.5
+    - name: Database Systems
+      achieved: 4.00/4.00
+      outOf: 6
+    - name: Computer Architecture
+      achieved: 4.00/4.00
+      outOf: 3
+    - name: Operating System and System Programming
+      achieved: 4.00/4.00
+      outOf: 4.5
+    - name: Theory of Computation and Concrete Mathematics
+      achieved: 4.00/4.00
+      outOf: 2
+    - name: Compiler Construction
+      achieved: 4.00/4.00
+      outOf: 4.5  	
+    - name: Software Engineering & Design Patterns
+      achieved: 4.00/4.00
+      outOf: 4.5
+    - name: Numerical Analysis
+      achieved: 3.83/4.00
+      outOf: 3.5
+    - name: Computer Networking
+      achieved: 4.00/4.00
+      outOf: 4.5
+    - name: Computer Graphics and Image Processing
+      achieved: 3.67/4.00
+      outOf: 4.5
+    - name: Structured Programming Language
+      achieved: 3.67/4.00
+      outOf: 6
+    - name: Discrete Mathematics
+      achieved: 3.00/4.00
+      outOf: 4.5
+    - name: Algorithm Design and Analysis
+      achieved: 3.17/4.00
+      outOf: 4.5 
+    - name: Data Structures
+      achieved: 3.67/4.00
+      outOf: 5
+    - name: Communication Engineering
+      achieved: 4.00/4.00
+      outOf: 4.5
+    - name: Microprocessor and Interfacing
+      achieved: 4.00/4.00
+      outOf: 4.5
+    - name: Digital Logic Design
+      achieved: 3.83/4.00
+      outOf: 5
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  extracurricularActivities: #(optional)
+  - description: 'Contributed <a href = "files/Certificate_IMU_Recognised.pdf">reviews</a> to the <a href="https://www.sciencedirect.com/journal/informatics-in-medicine-unlocked">Informatics in Medicine Unlocked</a> and <a href="https://thescipub.com/jcs">Journal of Computer Science</a>.'
+  - description: 'Solved over 500 problems on various online judges.'
+  - description: 'Ranked 95th in Algorithm Problem Solving at HackerRank from Bangladesh.'
+  - description: 'Earned Gold and Advanced Level in Problem Solving at HackerRank.'
+
+- name: Higher Secondary School Certificate
+  icon: fa-university
+  timeframe: 2014-2016
+  institution:
+    name: St. Joseph Higher Secondary School
+    url: "https://sjs.edu.bd/"
+  grade: #(optional)
+    scale: GPA
+    achieved: 4.83
+    outOf: 5
+- name: Secondary School Certificate
+  icon: fa-school
+  timeframe: 2009-2014
+  institution:
+    name: A. K. High School and College
+  grade: #(optional)
+    scale: GPA
+    achieved: 5
+    outOf: 5
