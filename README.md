@@ -2,9 +2,10 @@
 
 This repository contains the source code for my personal portfolio website built using [Hugo](https://gohugo.io/) and the [Toha](https://github.com/hugo-toha/toha) theme.
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Portfolio](#portfolio)
+    - [Table of Contents](#table-of-contents)
     - [Overview](#overview)
     - [Getting Started](#getting-started)
         - [Customizing the Site](#customizing-the-site)
