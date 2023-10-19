@@ -1,0 +1,172 @@
+# section information
+section:
+  name: Completed Online Courses
+  id: accomplishments
+  template: sections/online_courses.html
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: "Machine Learning"
+  timeline: "November 2, 2020"
+  organization:
+    name: Stanford University, Coursera
+    url: https://www.coursera.org/specializations/machine-learning-introduction
+  courseOverview: Throughout the course, I learned,
+    <ul>
+      <li>The fundamentals of machine learning, including what it is, the different types of machine learning algorithms, and their applications</li>
+      <li>How to implement and apply linear regression, which is a basic machine learning algorithm used to predict continuous outcomes</li>
+      <li>How to use logistic regression, which is another type of supervised learning algorithm that can be used for classification problems</li>
+      <li>How to build artificial neural networks, which is a type of machine learning model that is inspired by the structure of the human brain and is capable of performing complex tasks</li>
+      <li>How to perform model selection and regularization to avoid overfitting and improve model performance</li>
+      <li>How to use support vector machines (SVMs) to classify data by finding the best hyperplane that separates different classes of data</li>
+      <li>How to use k-means clustering to segment data into groups or clusters based on similarities in their features</li>
+      <li>How to use principal component analysis (PCA) to reduce the dimensionality of data by identifying the most important features and discarding those that are less important</li>
+      <li>How to use gradient descent and backpropagation to train neural networks and optimize their performance</li>
+      <li>How to apply machine learning algorithms to real-world problems</li>
+      <li>How to use convolutional neural networks (CNNs) to analyze images and perform tasks </li>
+      <li>The importance of ethical considerations in machine learning, including issues related to bias, fairness, privacy, and transparency</li>
+    <ul>
+  certificateURL: "https://www.coursera.org/account/accomplishments/verify/888898MYSZXY"
+
+- name: "Deep Learning with PyTorch : Siamese Network"
+  timeline: "June 27, 2022"
+  organization:
+    name: Coursera Project Network
+    url: https://www.coursera.org/projects/deep-learning-with-pytorch-siamese-network
+  courseOverview: In this course, I learned,
+    <ul>
+      <li>Understanding what siamese networks are and how they work</li>
+      <li>Implementing a siamese network from scratch using PyTorch</li>
+      <li>Understanding the concept of similarity and distance metrics, and how to use them in a siamese network</li>
+      <li>Learning about transfer learning and how to use pre-trained models in a siamese network</li>
+      <li>Learning about advanced techniques like triplet loss, and how to use them in a siamese network</li>
+      <li>Understanding how to evaluate the performance of a siamese network</li>
+      <li>Gaining practical experience by working on a real-world project using siamese networks and PyTorch</li>
+    <ul>
+  certificateURL: "https://www.coursera.org/account/accomplishments/verify/DFB5R88WVKC9"
+
+- name: "Object-Oriented Design"
+  timeline: "November 30, 2020"
+  organization:
+    name: University of Alberta, Coursera
+    url: https://www.coursera.org/learn/object-oriented-design
+  courseOverview: Throughout the course, I learned,
+    <ul>
+      <li>The principles of object-oriented design, including encapsulation, inheritance, and polymorphism</li>
+      <li>The importance of designing classes that are cohesive, with a single, well-defined responsibility</li>
+      <li>The use of design patterns to solve common problems in object-oriented programming</li>
+      <li>Techniques for designing flexible and extensible software, including using interfaces and abstract classes</li>
+      <li>The benefits of modular design and how to create software modules that can be easily reused and tested</li>
+      <li>The role of design in creating high-quality software that is maintainable and easy to change over time</li>
+    <ul>
+  certificateURL: "https://www.coursera.org/account/accomplishments/verify/87X9BVEJ9PV7"
+
+- name: "Introduction to Relational Database and SQL"
+  timeline: "September 16, 2020"
+  organization:
+    name: Coursera Project Network
+    url: https://www.coursera.org/projects/introduction-to-relational-database-and-sql
+  courseOverview: In this course, I learned,
+    <ul>
+      <li>Basics of relational databases and SQL</li>
+      <li>How to design and create a relational database schema</li>
+      <li>How to write SQL queries to retrieve data from a database</li>
+      <li>How to perform complex queries using joins, subqueries, and aggregations</li>
+      <li>How to use SQL to modify and manipulate data in a database</li>
+      <li>How to use views, indexes, and transactions to optimize database performance and ensure data integrity</li>
+    <ul> 
+  certificateURL: "https://www.coursera.org/account/accomplishments/verify/9YQKNNXZD7CZ"
+
+- name: "Using Git for Distributed Development"
+  timeline: "February 16, 2021"
+  organization:
+    name: The Linux Foundation, Coursera
+    url: https://www.coursera.org/learn/git-distributed-development
+  courseOverview: In this course, I learned,
+    <ul>
+      <li>The basics of Git version control system</li>
+      <li>How to create and manage Git repositories</li>
+      <li>How to use Git for distributed development</li>
+      <li>How to collaborate with other developers using Git</li>
+      <li>How to resolve conflicts that may arise during collaboration</li>
+      <li>Best practices for using Git in real-world projects</li>
+      <li>How to use different Git workflows, such as feature branching and pull requests</li>
+    <ul> 
+  certificateURL: "https://www.coursera.org/account/accomplishments/verify/PVW82XNVSYCA"
+
+- name: "Linux Tools for Developers"
+  timeline: "January 22, 2021"
+  organization:
+    name: The Linux Foundation, Coursera
+    url: https://www.coursera.org/learn/linux-tools-for-developers
+  courseOverview: Throughout the course, I learned,
+    <ul>
+      <li>How to work with different Linux tools, including the GNU Compiler Collection (GCC), the GNU Debugger (GDB), and the make build automation tool</li>
+      <li>How to use tools like strace, ltrace, and valgrind to debug and profile programs</li>
+      <li>How to work with Linux system calls and libraries, including dynamic linking and the ELF file format</li>
+      <li>How to use the Git version control system to manage your code and collaborate with others</li>
+      <li>How to work with Bash scripts, including writing scripts to automate tasks and parse text data</li>
+    <ul> 
+  certificateURL: "https://www.coursera.org/account/accomplishments/verify/YHYPQF2LVEQ6"
+
+- name: "Linux for Developers"
+  timeline: "December 21, 2020"
+  organization:
+    name: The Linux Foundation, Coursera
+    url: https://www.coursera.org/learn/linux-for-developers
+  courseOverview: In this course, I learned,
+    <ul>
+      <li>The basics of Linux operating system and how to use command-line interface to navigate through the file system, create and manipulate files and directories, and manage user accounts and permissions</li>
+      <li>How to use common Linux development tools such as Git, Make, GCC, and GDB</li>
+      <li>How to write shell scripts to automate tasks and use regular expressions to manipulate text</li>
+      <li>How to use Linux system calls to write simple C programs and create processes, manage memory, and communicate between processes using pipes and signals</li>
+      <li>How to set up a development environment for Linux applications using virtual machines and Docker containers</li>
+      <li>How to write and run simple web applications using Apache and Nginx web servers, PHP, and Python</li>
+      <li>How to secure Linux systems using firewalls, SSH, and HTTPS protocols</li>
+    <ul> 
+  certificateURL: "https://www.coursera.org/account/accomplishments/verify/R49TQTR9YVLG"
+
+- name: "Open Source Software Development Methods"
+  timeline: "November 4, 2020"
+  organization:
+    name: The Linux Foundation, Coursera
+    url: https://www.coursera.org/learn/open-source-software-development-methods
+  courseOverview: Throughout the course, I learned,
+    <ul>
+      <li>The importance and benefits of open-source software development</li>
+      <li>How to contribute to open-source projects using Git and GitHub</li>
+      <li>Techniques for writing effective documentation</li>
+      <li>Strategies for collaborating with other developers and contributing to a project's codebase</li>
+      <li>The different open-source licenses and their implications for software distribution and modification</li>
+      <li>Best practices for building a strong and inclusive open-source community</li>
+      <li>The role of open-source in various industries and its impact on innovation and technology</li>
+    <ul> 
+  certificateURL: "https://www.coursera.org/account/accomplishments/verify/W7SA9RQN89Y7"
+
+- name: "Complete Web Development Course"
+  timeline: "July 8, 2020"
+  organization:
+    name: Programming Hero
+    url: https://web.programming-hero.com/course-details
+  courseOverview: Throughout the course, I learned,
+    <ul>
+      <li>HTML and CSS for building web pages with responsive designs</li>
+      <li>JavaScript for dynamic and interactive web development</li>
+      <li>React library for building single-page applications</li>
+      <li>Firebase for authentication, real-time database, and storage</li>
+      <li>Netlify for hosting and deploying web applications</li>
+      <li>Bootstrap for creating responsive and mobile-first designs</li>
+      <li>jQuery for manipulating the HTML document and handling events</li>
+      <li>RESTful API and AJAX for client-server communication</li>
+      <li>Node.js and Express for building backend APIs</li>
+      <li>MongoDB for NoSQL database management</li>
+      <li>Several projects to apply the learned concepts and skills</li>
+    <ul> 
+  certificateURL: "https://photos.app.goo.gl/UDze2J4XBLDEKmMg7"
+  
