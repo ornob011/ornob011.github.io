@@ -1,0 +1,24 @@
+{{ $page := . }}  {{/* Cache the current page context */}}
+
+{{/* Check for a hero image in the same folder as the markdown file */}}
+{{ with .Resources.GetMatch "hero.{jpg,png,svg}" }}
+  {{ $heroImage := . }}  {{/* Store the hero image */}}
+  
+  {{/* If the image is not SVG, resize it */}}
+  {{ if ne .MediaType.SubType "svg" }}
+    {{ $resizedHeroImage := .Resize "148x" }}
+    {{ $page.Scratch.Set "heroScratch" $resizedHeroImage.RelPermalink }}  {{/* Cache resized hero image URL */}}
+  {{ else }}
+    {{ $page.Scratch.Set "heroScratch" .RelPermalink }}  {{/* Cache hero image URL */}}
+  {{ end }}
+  
+{{ else }}
+  
+  {{/* If no hero image is found, use a default image */}}
+  {{ with resources.Get "images/default-hero.jpg" }}
+    {{ $page.Scratch.Set "heroScratch" .RelPermalink }}  {{/* Cache default hero image URL */}}
+  {{ else }}
+    {{ $page.Scratch.Set "heroScratch" "" }}  {{/* Set empty string if no default image is found */}}
+  {{ end }}
+  
+{{ end }}
