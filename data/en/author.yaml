@@ -1,0 +1,23 @@
+# some information about you
+name: "Tareque Rahman Ornob"
+nickname: "Ornob"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "ornob011@gmail.com"
+  # phone: "+0123456789"
+  linkedin: tareque-rahman-ornob-bb8a331a6/
+  skype: y21d8LuwXW4C
+  github: ornob011
+  
+  
+
+# some summary about what you do
+# summary:
+#   - I am a Developer
+#   - I am a Devops
+#   - I love servers
+#   - I work on open-source projects
+#   - I love to work with some fun projects
