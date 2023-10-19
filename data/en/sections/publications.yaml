@@ -1,0 +1,80 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: "Machine Learning"
+  filter: "machinelearning"
+- name: "Medical Image Processing"
+  filter: "image-processing"
+- name: "Natural Language Processing"
+filter: "nlp"
+
+# your publications
+publications:
+- title: 'CovidExpert: A Triplet Siamese Neural Network framework for the detection of COVID-19'
+  publishedIn:
+    name: Informatics in Medicine Unlocked
+    date: January 13, 2023
+    url: https://www.sciencedirect.com/journal/informatics-in-medicine-unlocked
+
+  authors:
+  - name: Tareque Rahman Ornob
+    url: https://scholar.google.com/citations?user=FrDhUuAAAAAJ&hl=en
+  - name: Gourab Roy
+    url: https://scholar.google.com/citations?hl=en&user=_9tL56YAAAAJ
+  - name: Enamul Hassan
+    url: https://scholar.google.com/citations?user=95USF8kAAAAJ&hl=en
+
+  paper:
+    summary: A few-shot learning model was developed for the early detection of COVID-19 using CT scan images. The model achieved high accuracy with only 200 CT scans per category for training data. It combines few-shot learning with an ensemble of pre-trained convolutional neural networks to classify CT scan images into Normal, COVID-19, and Community-Acquired Pneumonia categories. The proposed model achieved impressive results, with 98.719% overall accuracy, 99.36% specificity, 98.72% sensitivity, and a 99.9% ROC score, tested on a dataset of 10152 CT scans.
+    url: https://doi.org/10.1016/j.imu.2022.101156
+  categories: ["machinelearning","image-processing"]
+  tags: ["Machine Learning", "Computer Vision"]
+
+- title: Classifications of Skull Fractures using CT Scan Images via CNN with Lazy Learning Approach
+  publishedIn:
+    name: Journal of Computer Science
+    date: March 15, 2022
+    url: https://thescipub.com/jcs
+  authors:
+  - name: Md Moniruzzaman Emon
+    url: https://scholar.google.com/citations?user=6-Gz_1QAAAAJ&hl=en&oi=ao
+  - name: Tareque Rahman Ornob
+    url: https://scholar.google.com/citations?user=FrDhUuAAAAAJ&hl=en
+  - name: Moqsadur Rahman
+    url: https://scholar.google.com/citations?user=gpJVZeMAAAAJ&hl=en&oi=ao
+
+  paper:
+    summary: Skull fracture classification is a difficult and time-consuming process, and fractures at multiple sites make it harder to detect fracture types. To automate this process, a new model called SkullNetV1 was proposed, which uses a convolutional neural network for feature extraction and a lazy learning approach for classification of skull fractures from brain CT images into five fracture types. The model achieved a subset accuracy of 88%, an F1 score of 93%, an AUC of 0.89 to 0.98, a Hamming score of 92%, and a Hamming loss of 0.04 for a seven-class multi-labeled classification.
+    url: https://thescipub.com/abstract/jcssp.2022.116.129
+  categories: ["machinelearning","image-processing"]
+  tags: ["Machine Learning", "Computer Vision"]
+
+- title: Predicting skull fractures via CNN with classification algorithms
+  publishedIn:
+    name: "ICCA '22: Proceedings of the 2nd International Conference on Computing Advancements"
+    date: August 11, 2022
+    url: https://dl.acm.org/doi/proceedings/10.1145/3542954
+  authors:
+  - name: Md Moniruzzaman Emon
+    url: https://scholar.google.com/citations?user=6-Gz_1QAAAAJ&hl=en&oi=ao
+  - name: Tareque Rahman Ornob
+    url: https://scholar.google.com/citations?user=FrDhUuAAAAAJ&hl=en
+  - name: Moqsadur Rahman
+    url: https://scholar.google.com/citations?user=gpJVZeMAAAAJ&hl=en&oi=ao
+
+  paper:
+    summary: A computer-assisted expert system was developed to classify skull fractures from CT scans using ResNet50 for feature extraction and a gradient boosted decision tree algorithm for classification. The model achieved an overall F1-score of 96%, making it an accurate tool for assisting physicians with skull fracture diagnosis.
+    url: https://dl.acm.org/doi/abs/10.1145/3542954.3543017
+  categories: ["machinelearning","image-processing"]
+  tags: ["Machine Learning", "Computer Vision"]
