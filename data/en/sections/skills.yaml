@@ -1,0 +1,50 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Proficient in Python programming language and its related libraries such as Tensorflow, PyTorch, and scikit-learn. Utilized Flask for backend web development and employed Python in various machine learning tasks."
+  
+- name: Java
+  logo: /images/sections/skills/java.png
+  summary: "Proficient in Java for object-oriented programming and software development. Experienced in building both front-end and back-end using Java and JavaFX. Capable of designing and implementing robust and scalable software solutions."
+
+- name: C++
+  logo: /images/sections/skills/c++.png
+  summary: "Skilled in C++ for competitive programming and problem-solving, with expertise in complex data structures and algorithms. Proficient in optimizing code for efficient performance and memory usage."
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Proficient in Linux system administration, with extensive experience in using it as the primary operating system. Skilled in managing system configurations, troubleshooting, and software installation."
+  
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Skilled in SQL for database management in designing efficient database schemas for various applications. Proficient in writing complex queries and optimizing database performance."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Skilled in Git for version control management, with extensive experience in using GitHub for collaborative software development projects."
+  
+- name: JavaScript
+  logo: /images/sections/skills/javascript.png
+  summary: "Familiar with JavaScript for website development, including React for front-end and Node.js for backend. Limited experience in implementing these technologies in production environments."
+
+- name: MiniTab
+  logo: /images/sections/skills/minitab.png
+  summary: "Skilled in utilizing MiniTab for statistical analysis, with experience in conducting various data analyses such as regression, hypothesis testing, and ANOVA."
+
+- name: LaTex
+  logo: /images/sections/skills/latex.png
+  summary: "Skilled in using LaTex for typesetting and document preparation, including research papers and technical documents. Experienced in customizing templates and producing high-quality output."
+
+
