@@ -1,0 +1,53 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Dynamic Solution Innovators Ltd.
+    url: "https://www.dsinnovators.com/"
+    location: Dhaka Branch
+    # company overview
+    overview: Dynamic Solution Innovators (DSI) is a software development and consulting company that specializes in enterprise-level solutions for businesses. They provide services such as custom software development, cloud migration, and IT consulting.
+  positions:
+  - designation: Junior Software Engineer
+    start: May 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    # responsibilities:
+    # - Design and develop XYZ tool for ABC task
+    # - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    # - Lead backend team.
+
+  # - designation: Junior Machine Learning Engineer
+  #   start: April 2023
+  #   # end: Oct 2019
+  #   responsibilities:
+  #   - Implement and test xyz feature for abc tool.
+  #   - Support client for abc tool.
+  #   - Learn k,d,w technology for xyz.
+
+- company:
+    name: Shahjalal University of Science and Technology
+    url: "https://www.sust.edu"
+    location: Sylhet, Bangladesh
+    overview: Shahjalal University of Science and Technology (SUST) is a public research university in Bangladesh. It offers undergraduate and graduate programs in various fields, including engineering, sciences, and humanities. I'm fortunate enough to work under the supervision of [Moqsadur Rahman](https://www.sust.edu/d/cse/faculty-profile-detail/619), [Arnab Sen Sharma](https://www.sust.edu/d/cse/faculty-profile-detail/700) and [Enamul Hassan](https://www.sust.edu/d/cse/faculty-profile-detail/590).
+  positions:
+  - designation: Machine Learning Researcher
+    start: February 2021
+    # end: May 2017
+    responsibilities:
+    - Provide technical leadership to three research groups.
+    - Develop and implement new algorithms.
+    - Maintain and manage research datasets.
+    - Author manuscripts and submit them to journals along with necessary documents.
+    - Correspond with journal editors as the corresponding author.
+
