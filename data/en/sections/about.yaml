@@ -1,0 +1,96 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Junior Software Engineer
+# your company information
+company:
+  name: Dynamic Solution Innovators Ltd.
+  url: "https://www.dsinnovators.com/"
+
+# your resume. this file path should be relative to you "static" directory
+# Deprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: "I am a Machine Learning Researcher and Java Developer with a passion for building innovative solutions. My expertise lies in developing machine learning models and techniques to detect abnormalities from medical images, empowering healthcare specialists to diagnose health problems quickly and accurately. Currently, I am working at [DSi](https://www.dsinnovators.com/) with a team to develop cutting-edge website with Ruby on Rails.
+
+</br>
+</br>
+I am passionate about using machine learning techniques to develop innovative solutions for healthcare applications, specifically in the areas of medical image processing and health informatics. My work in these fields has resulted in a publication in a [ranked 22 journal](https://www.scopus.com/sourceid/21100780477?utm_acid=246948639&SIS_ID=&dgcid=STMJ_202268_PMES_IM&CMX_ID=&utm_in=DM379813), and I am eager to continue exploring the use of machine learning to analyze medical images for diagnosis and treatment. Additionally, I am excited to delve into the field of natural language processing and its applications in healthcare, and I plan to pursue future research in this area. I am dedicated to improving the quality of healthcare delivery and patient outcomes through the use of technology and am constantly seeking new opportunities to learn and grow in the field of machine learning and software engineering."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/ornob011"
+
+- name: Google Scholar
+  icon: "ai ai-google-scholar-square"
+  url: "https://scholar.google.com/citations?user=FrDhUuAAAAAJ&hl=en"  
+
+- name: Email
+  icon: "fas fa-envelope"
+  url: "ornob011@gmail.com"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/tareque-rahman-ornob-bb8a331a6/"
+
+- name: Skype
+  icon: "fab fa-skype"
+  url: "https://join.skype.com/invite/y21d8LuwXW4C/"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/Ornob_Resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+# badges:
+# - type: certification
+#   name: Certified Open Source Specialist
+#   url: "https://www.credly.com/badges/33c20cc7-569e-4d11-9d55-4bc77e214779?source=linked_in_profile"
+#   badge: "https://images.credly.com/size/680x680/images/a8e890b4-d484-4e04-b521-fba516a8c3cd/coursera-specialization-badge.png"
+
+# - type: certification
+#   name: Istio and IBM Cloud Kubernetes Service
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+
+# - type: certification
+#   name: Artificial Intelligence and Machine Learning
+#   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
+#   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+
+# - type: soft-skill-indicator
+#   name: Leadership
+#   percentage: 85
+#   color: blue
+
+# - type: soft-skill-indicator
+#   name: Team Work
+#   percentage: 90
+#   color: yellow
+
+# - type: soft-skill-indicator
+#   name: Hard Working
+#   percentage: 85
+#   color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
