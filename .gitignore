@@ -1,0 +1,7 @@
+resources/*
+node_modules/*
+.history/
+.idea/
+static/tsparticles
+.hugo_build.lock
+themes
