@@ -158,10 +158,8 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 ## Math Rendering
 
 {{< math.inline >}}
-<p>
 Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
-</p>
-{{</ math.inline >}}
+{{< /math.inline >}}
 
 Block math:
 $$
