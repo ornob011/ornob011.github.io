@@ -33,7 +33,7 @@ projects:
   tags: ["Machine Learning", "PyTorch", "Torchvision", "Scikit-learn"]
 
 - name: CovidExpert
-  logo: /images/sections/projects/CovidExpert_1.png
+  logo: /images/sections/projects/CovidExpert.png
   role: Lead Researcher
   timeline: "July 2022 - December 2022"
   repo: https://github.com/ornob011/CovidExpert-Interface
@@ -42,7 +42,7 @@ projects:
   tags: ["Machine Learning", "PyTorch", "Torchvision", "Scikit-learn", "Tkinter"]
 
 - name: Image Caption Generator
-  logo: /images/sections/projects/Image_Caption.png
+  logo: /images/sections/projects/Image-Caption.png
   role: Lead Developer
   timeline: "December 2022 - January 2022"
   repo: "https://github.com/ornob011/Image-Caption-Generator"
@@ -66,7 +66,7 @@ projects:
   tags: ["Java", "JavaFX", "SQL", "Heroku"]
 
 - name: Hostel Management System
-  logo: /images/sections/projects/Hostel-Management-System_2.png
+  logo: /images/sections/projects/Hostel-Management-System.png
   role: Lead Developer
   timeline: "December 2020 - March 2021"
   repo: https://github.com/ornob011/Hostel-Management-System
@@ -82,7 +82,7 @@ projects:
   tags: ["Database", "PHP", "SQL"]
 
 - name: Doctor’s Portal
-  logo: /images/sections/projects/doctors-portal.png
+  logo: /images/sections/projects/Doctors-Portal.png
   role: Developer
   timeline: "May 2020 - April 2020"
   repo: https://github.com/ornob011/doctors-portal
@@ -90,7 +90,7 @@ projects:
   tags: ["Web Development", "React", "Node.js"]
 
 - name: Onion Restaurant
-  logo: /images/sections/projects/red-onion-client.png
+  logo: /images/sections/projects/Red-Onion.png
   role: Developer
   timeline: "March 2020 - April 2020"
   repo: https://github.com/ornob011/red-onion-client
