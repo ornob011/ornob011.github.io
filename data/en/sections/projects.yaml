@@ -16,6 +16,8 @@ buttons:
   filter: "Machine Learning"
 - name: Java
   filter: "Java"
+- name: Python
+  filter: "Python"
 - name: Database
   filter: "Database"
 - name: Web Development
@@ -72,6 +74,22 @@ projects:
   repo: https://github.com/ornob011/Hostel-Management-System
   summary: Cross-platform Hostel Management System for easy management of activities including user profiles, payment, and details of hostel students and employees. User-friendly and eliminates problems of manual management.
   tags: ["Java", "JavaFX", "SQL", "Heroku"]
+
+- name: Instagram Video Fetcher API
+  logo: /images/sections/projects/Instagram-Video-Fetcher-API.png
+  role: Developer
+  timeline: "December 2023 - December 2023"
+  repo: "https://github.com/ornob011/Instagram-Video-Fetcher-API"
+  summary: A Flask-based web service that provides a way to fetch video information from Instagram posts. It provides an API endpoint that can be used to retrieve video details such as the filename, dimension and video URLs.
+  tags: ["Python", "Docker"]
+
+- name: Facebook Video Downloader API
+  logo: /images/sections/projects/Facebook-Video-Downloader-API.png
+  role: Developer
+  timeline: "November 2023 - November 2023"
+  repo: "https://github.com/ornob011/Facebook-Video-Downloader-API"
+  summary: A Flask-based web service that provides an efficient way to fetch download links for videos from Facebook. It allows users to retrieve both standard and high-definition video links.
+  tags: ["Python"]
 
 - name: Online Shopping System
   logo: /images/sections/projects/Online-Shopping-System.png
