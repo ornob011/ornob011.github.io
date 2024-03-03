@@ -17,7 +17,11 @@ skills:
   
 - name: Java
   logo: /images/sections/skills/java.png
-  summary: "Proficient in Java for object-oriented programming and software development. Experienced in building both front-end and back-end using Java and JavaFX. Capable of designing and implementing robust and scalable software solutions."
+  summary: "Proficient in Java for object-oriented programming and software development. Experienced in building both website and desktop application with Spring Boot and JavaFX. Capable of designing and implementing robust and scalable software solutions."
+
+- name: Ruby
+  logo: /images/sections/skills/ruby.png
+  summary: "Skilled in Ruby on Rails for web development, with expertise in crafting robust and scalable web applications. Proficient in MVC architecture and RESTful APIs. Experienced in writing clean, maintainable code."
 
 - name: C++
   logo: /images/sections/skills/c++.png
@@ -29,7 +33,15 @@ skills:
   
 - name: SQL
   logo: /images/sections/skills/sql.png
-  summary: "Skilled in SQL for database management in designing efficient database schemas for various applications. Proficient in writing complex queries and optimizing database performance."
+  summary: "Skilled in SQL for database management in designing efficient database schemas for various applications. Proficient in writing complex queries and optimizing database in PostgreSQL, Oracle and MySQL."
+
+- name: Tailwind
+  logo: /images/sections/skills/tailwind.png
+  summary: "Proficient in Tailwind CSS for crafting responsive and modern web interfaces, ensuring optimal user experience across devices."
+
+- name: Docker
+  logo: /images/sections/skills/docker.png
+  summary: "Skilled in Docker for containerization, with  experience in deploying and managing applications in a containerized environment."
 
 - name: Git
   logo: /images/sections/skills/git.png
