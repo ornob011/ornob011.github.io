@@ -1,0 +1,8 @@
+resources/*
+node_modules/*
+.history/
+.idea/
+static/tsparticles
+.hugo_build.lock
+assets/images/author/test*
+assets/images/author/ornob*
