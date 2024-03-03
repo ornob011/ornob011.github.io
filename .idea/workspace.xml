@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fecb1dc7-d75d-452d-b245-1dcd03c563cf" name="Changes" comment="chore: set `hugo-toha/toha` to `v4.0.0` and `ionrock/cachecontrol` to `v0.12.12` for dependency management">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2WxnQS9uFaa4Vynz2yFM55P2IMQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.applicationServers",
+    "ts.external.directory.path": "/snap/intellij-idea-ultimate/455/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fecb1dc7-d75d-452d-b245-1dcd03c563cf" name="Changes" comment="" />
+      <created>1697683087495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697683087495</updated>
+      <workItem from="1697683093569" duration="1495000" />
+      <workItem from="1697684619650" duration="973000" />
+      <workItem from="1697685617683" duration="136000" />
+      <workItem from="1697685783180" duration="73000" />
+      <workItem from="1697685878104" duration="12712000" />
+      <workItem from="1697698717973" duration="15436000" />
+      <workItem from="1697798023914" duration="7529000" />
+      <workItem from="1697991714232" duration="600000" />
+      <workItem from="1698225625280" duration="733000" />
+    </task>
+    <task id="LOCAL-00104" summary="feat: add partial for horizontal line">
+      <option name="closed" value="true" />
+      <created>1697812536260</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812536260</updated>
+    </task>
+    <task id="LOCAL-00105" summary="feat: add exports for device and insertScript utilities">
+      <option name="closed" value="true" />
+      <created>1697812667738</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812667738</updated>
+    </task>
+    <task id="LOCAL-00106" summary="feat: implement dynamic theme switching with persistence">
+      <option name="closed" value="true" />
+      <created>1697812698053</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812698053</updated>
+    </task>
+    <task id="LOCAL-00107" summary="feat: introduce PDFViewer class with pdf.js integration">
+      <option name="closed" value="true" />
+      <created>1697812736271</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812736271</updated>
+    </task>
+    <task id="LOCAL-00108" summary="feat: conditionally import 'mermaid' based on FEATURE_FLOWCHART_MERMAID env variable">
+      <option name="closed" value="true" />
+      <created>1697812759358</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812759358</updated>
+    </task>
+    <task id="LOCAL-00109" summary="feat: conditionally import `katex` based on FEATURE_MATH_KATEX env variable">
+      <option name="closed" value="true" />
+      <created>1697812818857</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812818857</updated>
+    </task>
+    <task id="LOCAL-00110" summary="feat: conditionally import `hljs` based on FEATURE_SYNTAXHIGHLIGHT_HLJS env variable">
+      <option name="closed" value="true" />
+      <created>1697812843800</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812843800</updated>
+    </task>
+    <task id="LOCAL-00111" summary="feat: implement dynamic Table of Contents toggle with device-aware behavior">
+      <option name="closed" value="true" />
+      <created>1697812872150</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812872150</updated>
+    </task>
+    <task id="LOCAL-00112" summary="feat: conditionally import `plyr` based on FEATURE_VIDEOPLAYER_PLYR env variable">
+      <option name="closed" value="true" />
+      <created>1697812899887</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812899887</updated>
+    </task>
+    <task id="LOCAL-00113" summary="feat: conditionally import feature-specific modules based on environment flags">
+      <option name="closed" value="true" />
+      <created>1697812924182</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812924182</updated>
+    </task>
+    <task id="LOCAL-00114" summary="feat: import core modules for note, search, single, and home functionalities">
+      <option name="closed" value="true" />
+      <created>1697812943486</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812943486</updated>
+    </task>
+    <task id="LOCAL-00115" summary="feat: import modules for UI components and content categories">
+      <option name="closed" value="true" />
+      <created>1697812967133</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812967133</updated>
+    </task>
+    <task id="LOCAL-00116" summary="feat: generate indexed JSON representation of site's regular pages excluding search">
+      <option name="closed" value="true" />
+      <created>1697812989375</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1697812989375</updated>
+    </task>
+    <task id="LOCAL-00117" summary="feat: add utility to dynamically insert script tags by source URL">
+      <option name="closed" value="true" />
+      <created>1697813007627</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813007627</updated>
+    </task>
+    <task id="LOCAL-00118" summary="config: set compiler options for base URL and paths in tsconfig">
+      <option name="closed" value="true" />
+      <created>1697813061600</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813061600</updated>
+    </task>
+    <task id="LOCAL-00119" summary="feat: add layout, style files for `posts` section with pagination">
+      <option name="closed" value="true" />
+      <created>1697813230804</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813230804</updated>
+    </task>
+    <task id="LOCAL-00120" summary="template: Generate RSS feed with recent content for site and sections">
+      <option name="closed" value="true" />
+      <created>1697813302112</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813302112</updated>
+    </task>
+    <task id="LOCAL-00121" summary="feat: implement responsive image rendering with various sizes">
+      <option name="closed" value="true" />
+      <created>1697813366443</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813366443</updated>
+    </task>
+    <task id="LOCAL-00122" summary="feat: enhance anchor link generation with safety checks and external link handling">
+      <option name="closed" value="true" />
+      <created>1697813394357</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813394357</updated>
+    </task>
+    <task id="LOCAL-00123" summary="feat: add default hero and author metadata to `default.md`">
+      <option name="closed" value="true" />
+      <created>1697813464305</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813464305</updated>
+    </task>
+    <task id="LOCAL-00124" summary="feat: add achievement entry template with responsive image handling">
+      <option name="closed" value="true" />
+      <created>1697813577525</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813577525</updated>
+    </task>
+    <task id="LOCAL-00125" summary="feat: add ESBuild configuration helper for feature-based optimization&#10;&#10;- Enable JS minification.&#10;- Conditional source maps based on build environment.&#10;- Dynamic `process.env` definitions for enabled features.&#10;- Standardized feature and service interface for easy configuration.&#10;- Convert site config to corresponding environment variables and service params.&#10;- Added process-shim injection for `process.env` handling.">
+      <option name="closed" value="true" />
+      <created>1697813626774</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813626774</updated>
+    </task>
+    <task id="LOCAL-00126" summary="feat: integrate `highlight.js` with dynamic configuration&#10;&#10;- Import `highlight.js` and site parameters.&#10;- Set default options for syntax highlighting.&#10;- Allow additional `hljs` configuration via site parameters.&#10;- Apply syntax highlighting to all matching elements on the page.">
+      <option name="closed" value="true" />
+      <created>1697813666884</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813666884</updated>
+    </task>
+    <task id="LOCAL-00127" summary="feat: add automatic rendering of math using KaTeX&#10;&#10;- Import KaTeX auto-render module and site parameters.&#10;- Define default delimiters for math rendering.&#10;- Allow customization of KaTeX options via site parameters.&#10;- Initialize math rendering on DOMContentLoaded event.">
+      <option name="closed" value="true" />
+      <created>1697813697217</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813697217</updated>
+    </task>
+    <task id="LOCAL-00128" summary="feat: introduce custom alignment and background for mermaid div&#10;&#10;- Set default alignment to center if not specified.&#10;- Allow customization of alignment and background color.&#10;- Apply alignment and background style to mermaid div.&#10;- Ensure mermaid content is rendered safely within the div.">
+      <option name="closed" value="true" />
+      <created>1697813745659</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813745659</updated>
+    </task>
+    <task id="LOCAL-00129" summary="feat: initialize mermaid with dynamic configurations&#10;&#10;- Import the mermaid library for flowchart rendering.&#10;- Extract mermaid configuration from site parameters.&#10;- Ensure mermaid starts on load with the combined options.">
+      <option name="closed" value="true" />
+      <created>1697813776770</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813776770</updated>
+    </task>
+    <task id="LOCAL-00130" summary="feat: enhance experience section with dynamic content&#10;&#10;- Display company name with an optional link.&#10;- Calculate total duration at a company based on oldest and most recent positions.&#10;- Render company overview with markdown support.&#10;- Enumerate positions held at the company with their respective durations.&#10;- List out responsibilities for each position using markdown rendering.">
+      <option name="closed" value="true" />
+      <created>1697813804123</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813804123</updated>
+    </task>
+    <task id="LOCAL-00131" summary="feat: implement navigation for next and previous pages&#10;&#10;- Use sidebar menu to determine the order of pages.&#10;- Identify the current page's index in the order.&#10;- Determine previous and next pages based on the current page's index.&#10;- Display navigation buttons with titles for a more intuitive user experience.&#10;- Adjust column width dynamically based on the presence of previous or next pages.">
+      <option name="closed" value="true" />
+      <created>1697813851387</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813851387</updated>
+    </task>
+    <task id="LOCAL-00132" summary="feat: add template for custom CSS overrides&#10;&#10;- Provide a starting point for users to add their custom styles.&#10;- Include comments for guidance on how to import and use Bootstrap mixins.&#10;- Showcase an example of using Bootstrap's responsive breakpoints with mixins.">
+      <option name="closed" value="true" />
+      <created>1697813893475</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813893475</updated>
+    </task>
+    <task id="LOCAL-00133" summary="feat: add style file to enhance PDF viewer aesthetics and user experience&#10;&#10;- Style the canvas for the PDF with a border to differentiate it from the surrounding content.&#10;- Add `ltr` direction for consistent text rendering.&#10;- Hide the paginator and set a centralized style for it.&#10;- Create a &quot;loading&quot; spinner animation to indicate when the PDF is being loaded.&#10;- Utilize keyframes for a smooth 360-degree rotation effect on the loading spinner.">
+      <option name="closed" value="true" />
+      <created>1697814010183</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1697814010183</updated>
+    </task>
+    <task id="LOCAL-00134" summary="feat: add active class to current taxonomy term&#10;&#10;- Retrieve the specified taxonomy from the site context.&#10;- Loop through each term in the taxonomy.&#10;- Compare the term title with the current page's title.&#10;- If they match, set the `active` CSS class to the term.&#10;- Render each term with its corresponding CSS class and link it to its permalink.">
+      <option name="closed" value="true" />
+      <created>1697814086029</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1697814086029</updated>
+    </task>
+    <task id="LOCAL-00135" summary="feat: add mock process.env object for browser compatibility">
+      <option name="closed" value="true" />
+      <created>1697814146824</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1697814146824</updated>
+    </task>
+    <task id="LOCAL-00136" summary="feat: integrate `Plyr` video player with configurable options from params">
+      <option name="closed" value="true" />
+      <created>1697814341516</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1697814341516</updated>
+    </task>
+    <task id="LOCAL-00137" summary="feat: add post card template with hero image, title, summary, and date">
+      <option name="closed" value="true" />
+      <created>1697814393097</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1697814393097</updated>
+    </task>
+    <task id="LOCAL-00138" summary="feat: implement dynamic column generation based on content split">
+      <option name="closed" value="true" />
+      <created>1697814438690</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1697814438690</updated>
+    </task>
+    <task id="LOCAL-00139" summary="feat: create main template with common headers, analytics, navbar, sidebar, content, TOC, footer, and scripts">
+      <option name="closed" value="true" />
+      <created>1697814557297</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1697814557297</updated>
+    </task>
+    <task id="LOCAL-00140" summary="feat: add CSS styles and color palette&#10;&#10;- Added new color definitions for headings, paragraphs, iconography, secondary elements, backgrounds, and a range of custom colors.&#10;- Simplified smooth scrolling implementation by removing jQuery dependency in favor of a CSS approach.&#10;- Introduced a fix for the anchor overlapping issue with the header.&#10;- Made tweaks to components like buttons, cards, tables, figures, footer, and others.&#10;- Included media queries to ensure responsive design across various devices, including specific rules for devices like iPad Pro, iPhoneX, and Galaxy S5.">
+      <option name="closed" value="true" />
+      <created>1697814700389</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1697814700389</updated>
+    </task>
+    <task id="LOCAL-00141" summary="deps: set module path and Go version">
+      <option name="closed" value="true" />
+      <created>1697814768162</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1697814768162</updated>
+    </task>
+    <task id="LOCAL-00142" summary="deps: add npm dependency versions generated by npm and Hugo configurations">
+      <option name="closed" value="true" />
+      <created>1697814811951</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1697814811951</updated>
+    </task>
+    <task id="LOCAL-00143" summary="feat: add `theme.toml` for `Toha` Hugo theme with portfolio features, multilingual support, and set author and licensing details">
+      <option name="closed" value="true" />
+      <created>1697815096827</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1697815096827</updated>
+    </task>
+    <task id="LOCAL-00144" summary="deps: add theme dependencies">
+      <option name="closed" value="true" />
+      <created>1697815172186</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1697815172186</updated>
+    </task>
+    <task id="LOCAL-00145" summary="performance: optimize ESLint performance by excluding `node_modules`">
+      <option name="closed" value="true" />
+      <created>1697815450782</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1697815450783</updated>
+    </task>
+    <task id="LOCAL-00146" summary="feat: establish consistent coding practices with a tailored ESLint configuration">
+      <option name="closed" value="true" />
+      <created>1697815482605</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1697815482605</updated>
+    </task>
+    <task id="LOCAL-00147" summary="feat: enhance code readability with specific prettier settings">
+      <option name="closed" value="true" />
+      <created>1697815516464</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1697815516464</updated>
+    </task>
+    <task id="LOCAL-00148" summary="feat: ensure project consistency by locking to Node.js version">
+      <option name="closed" value="true" />
+      <created>1697815644319</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1697815644319</updated>
+    </task>
+    <task id="LOCAL-00149" summary="docs: add MIT LICENSE file">
+      <option name="closed" value="true" />
+      <created>1697815687656</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1697815687656</updated>
+    </task>
+    <task id="LOCAL-00150" summary="feat: add asset files for `posts` section">
+      <option name="closed" value="true" />
+      <created>1697815734466</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1697815734467</updated>
+    </task>
+    <task id="LOCAL-00151" summary="chore: ignore editor-specific, build, and temporary files to keep the repository clean">
+      <option name="closed" value="true" />
+      <created>1697815790479</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1697815790479</updated>
+    </task>
+    <task id="LOCAL-00152" summary="chore: set `hugo-toha/toha` to `v4.0.0` and `ionrock/cachecontrol` to `v0.12.12` for dependency management">
+      <option name="closed" value="true" />
+      <created>1697815942584</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1697815942584</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/static/tsparticles/components/svelte/src/index.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: introduce custom alignment and background for mermaid div&#10;&#10;- Set default alignment to center if not specified.&#10;- Allow customization of alignment and background color.&#10;- Apply alignment and background style to mermaid div.&#10;- Ensure mermaid content is rendered safely within the div." />
+    <MESSAGE value="feat: initialize mermaid with dynamic configurations&#10;&#10;- Import the mermaid library for flowchart rendering.&#10;- Extract mermaid configuration from site parameters.&#10;- Ensure mermaid starts on load with the combined options." />
+    <MESSAGE value="feat: enhance experience section with dynamic content&#10;&#10;- Display company name with an optional link.&#10;- Calculate total duration at a company based on oldest and most recent positions.&#10;- Render company overview with markdown support.&#10;- Enumerate positions held at the company with their respective durations.&#10;- List out responsibilities for each position using markdown rendering." />
+    <MESSAGE value="feat: implement navigation for next and previous pages&#10;&#10;- Use sidebar menu to determine the order of pages.&#10;- Identify the current page's index in the order.&#10;- Determine previous and next pages based on the current page's index.&#10;- Display navigation buttons with titles for a more intuitive user experience.&#10;- Adjust column width dynamically based on the presence of previous or next pages." />
+    <MESSAGE value="feat: add template for custom CSS overrides&#10;&#10;- Provide a starting point for users to add their custom styles.&#10;- Include comments for guidance on how to import and use Bootstrap mixins.&#10;- Showcase an example of using Bootstrap's responsive breakpoints with mixins." />
+    <MESSAGE value="feat: add style file to enhance PDF viewer aesthetics and user experience&#10;&#10;- Style the canvas for the PDF with a border to differentiate it from the surrounding content.&#10;- Add `ltr` direction for consistent text rendering.&#10;- Hide the paginator and set a centralized style for it.&#10;- Create a &quot;loading&quot; spinner animation to indicate when the PDF is being loaded.&#10;- Utilize keyframes for a smooth 360-degree rotation effect on the loading spinner." />
+    <MESSAGE value="feat: add active class to current taxonomy term&#10;&#10;- Retrieve the specified taxonomy from the site context.&#10;- Loop through each term in the taxonomy.&#10;- Compare the term title with the current page's title.&#10;- If they match, set the `active` CSS class to the term.&#10;- Render each term with its corresponding CSS class and link it to its permalink." />
+    <MESSAGE value="feat: add mock process.env object for browser compatibility" />
+    <MESSAGE value="feat: integrate `Plyr` video player with configurable options from params" />
+    <MESSAGE value="feat: add post card template with hero image, title, summary, and date" />
+    <MESSAGE value="feat: implement dynamic column generation based on content split" />
+    <MESSAGE value="feat: create main template with common headers, analytics, navbar, sidebar, content, TOC, footer, and scripts" />
+    <MESSAGE value="feat: add CSS styles and color palette&#10;&#10;- Added new color definitions for headings, paragraphs, iconography, secondary elements, backgrounds, and a range of custom colors.&#10;- Simplified smooth scrolling implementation by removing jQuery dependency in favor of a CSS approach.&#10;- Introduced a fix for the anchor overlapping issue with the header.&#10;- Made tweaks to components like buttons, cards, tables, figures, footer, and others.&#10;- Included media queries to ensure responsive design across various devices, including specific rules for devices like iPad Pro, iPhoneX, and Galaxy S5." />
+    <MESSAGE value="deps: set module path and Go version" />
+    <MESSAGE value="deps: add npm dependency versions generated by npm and Hugo configurations" />
+    <MESSAGE value="feat: add `theme.toml` for `Toha` Hugo theme with portfolio features, multilingual support, and set author and licensing details" />
+    <MESSAGE value="deps: add theme dependencies" />
+    <MESSAGE value="perf: optimize ESLint performance by excluding `node_modules`" />
+    <MESSAGE value="feat: establish consistent coding practices with a tailored ESLint configuration" />
+    <MESSAGE value="feat: enhance code readability with specific prettier settings" />
+    <MESSAGE value="feat: ensure project consistency by locking to Node.js version" />
+    <MESSAGE value="docs: add MIT LICENSE file" />
+    <MESSAGE value="feat: add asset files for `posts` section" />
+    <MESSAGE value="chore: ignore editor-specific, build, and temporary files to keep the repository clean" />
+    <MESSAGE value="chore: set `hugo-toha/toha` to `v4.0.0` and `ionrock/cachecontrol` to `v0.12.12` for dependency management" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: set `hugo-toha/toha` to `v4.0.0` and `ionrock/cachecontrol` to `v0.12.12` for dependency management" />
+  </component>
+</project>
