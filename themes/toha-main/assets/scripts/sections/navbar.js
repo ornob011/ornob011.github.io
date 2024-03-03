@@ -20,11 +20,19 @@ const updateNavBar = () => {
       document.getElementById('logo')?.setAttribute('src', logoURL)
     }
   } else {
-    topNavbar?.classList.remove('final-navbar', 'shadow')
-    topNavbar?.classList.add('initial-navbar')
+    // add shadow to navbar
+    topNavbar?.classList.remove('initial-navbar')
+    topNavbar?.classList.add('final-navbar', 'shadow')
 
-    navbarToggler?.classList.remove('navbar-light')
-    navbarToggler?.classList.add('navbar-dark')
+    // change navbar style
+    navbarToggler?.classList.remove('navbar-dark')
+    navbarToggler?.classList.add('navbar-light')
+
+    //commented out original code
+    // topNavbar?.classList.remove('final-navbar', 'shadow')
+    // topNavbar?.classList.add('initial-navbar')
+    // navbarToggler?.classList.remove('navbar-light')
+    // navbarToggler?.classList.add('navbar-dark')
 
     // color theme selector a.k.a. dark mode
     themeIcon?.classList.add('navbar-icon-svg-dark')
