@@ -22,11 +22,9 @@ experiences:
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
-    # responsibilities:
-    # - Design and develop XYZ tool for ABC task
-    # - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    # - Lead backend team.
-
+    responsibilities:
+    - Developed key components of KSS, a Ruby on Rails-based platform for National Board of Revenue (NBR), focusing on user engagement and knowledge exchange. Responsibilities encompassed building the authentication system, crafting question and answer features, and enabling user interactions like upvoting and following.
+    - Developing key components of SmartRJSC, a Spring Boot based platform for Registrar of Joint Stock Companies And Firms (RJSC). Implemented company registration processes for two companies and introduced AOP for registration process. Integrated City Bank online banking for payment processing. Developed an automated employee sign-up system with email invitations and dynamic role management. Handled back-office admin functions, wrote data migration scripts, and conducted unit tests for concurrent data integrity.
   # - designation: Junior Machine Learning Engineer
   #   start: April 2023
   #   # end: Oct 2019
