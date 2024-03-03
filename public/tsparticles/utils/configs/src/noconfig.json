@@ -1,0 +1,7 @@
+{
+    "name": "No Config",
+    "fullScreen": {
+        "enable": true,
+        "zIndex": 0
+    }
+}
