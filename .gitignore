@@ -4,4 +4,5 @@ node_modules/*
 .idea/
 static/tsparticles
 .hugo_build.lock
-themes
+assets/images/author/test*
+assets/images/author/ornob*
