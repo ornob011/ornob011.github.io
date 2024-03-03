@@ -18,8 +18,11 @@ company:
 # Deprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
+# Detailed summary about myself
+# I am a Machine Learning Researcher and Java Web Developer with a passion for building innovative solutions. My expertise in machine learning focuses on developing models and techniques to detect abnormalities from medical images, empowering healthcare specialists to diagnose health problems quickly and accurately. In addition to my contributions in the field of machine learning, I excel in Java web development, specifically using Spring Boot, where I create scalable and efficient web applications. Currently, I am working at DSi, contributing to the development of cutting-edge websites utilizing both Spring Boot and Ruby on Rails, highlighting my commitment to advancing web technologies and their applications.
+
 # a summary about you
-summary: "I am a Machine Learning Researcher and Java Web Developer with a passion for building innovative solutions. My expertise lies in developing machine learning models and techniques to detect abnormalities from medical images, empowering healthcare specialists to diagnose health problems quickly and accurately. Currently, I am working at [DSi](https://www.dsinnovators.com/) to develop cutting-edge website with Spring Boot and Ruby on Rails.
+summary: "I am a Machine Learning Researcher and Java Web Developer, specializing in creating innovative solutions. My machine learning work involves developing models to detect medical image abnormalities, aiding quick and accurate healthcare diagnoses. Additionally, I work in developing scalable, efficient web applications with Spring Boot. At [DSi](https://www.dsinnovators.com/), I focus on crafting cutting-edge websites with Spring Boot and Ruby on Rails.
 
 </br>
 </br>
